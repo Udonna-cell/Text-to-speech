@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(120deg,#2435E9 50%,#9400FF 50%);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+section.container  {
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: right;
+  max-width: 300px;
+}
+section.container textarea {
+  outline-color: #0080FF;
+  outline-width: 3px;
+  padding: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+section.container textarea:hover {
+  box-shadow: inset 0 0 5px #0080FF,
+              0 0 5px #0080FF;
+}
+section.container button {
+  color: #fff;
+  text-transform: capitalize;
+  font-size: large;
+  font-weight: bolder;
+  width: 120px;
+  padding: 8px;
+  background: #0080FF;
+  border: none;
+  border-radius: 5px;
+}
